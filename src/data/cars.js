@@ -5,20 +5,18 @@ export const cars = [
   "brand": "Toyota",
   "price": 5000,
   "priceFcfa": "3000000 FCFA",
+  "depositUsd": "833 USD",
   "depositFcfa": "500000 FCFA",
-
   "images": [
     "/images/cars/photo_2026-06-22_03-23-50.jpg",
     "/images/cars/photo_2026-06-22_04-05-17.jpg"
   ],
-
   "category": "SUV",
   "fuel": "Essence",
   "transmission": "Automatique",
   "mileage": "56 000 km",
   "year": 2020,
   "location": "Dubai Auto Market",
-
   "features": [
     "Climatisation",
     "Bluetooth",
@@ -26,13 +24,100 @@ export const cars = [
     "Confort SUV",
     "Véhicule inspecté avant expédition"
   ],
-
   "available": true,
-
   "shipping": "Livraison dans tous les pays d’Afrique après environ 30 jours",
-
-  "description":
-  "Toyota RAV4 2020 occasion disponible à Dubai 🇦🇪. Kilométrage : 56 000 km. Carburant : Essence. Boîte automatique. Prix transport et douane inclus : 5 500$ soit environ 3 000 000 FCFA. Avance : 1 000$ soit environ 500 000 FCFA."
+  "description": "Toyota RAV4 2020 occasion disponible à Dubai 🇦🇪. Kilométrage : 56 000 km. Carburant : Essence. Boîte automatique. Prix transport et douane inclus : 5 500$ soit environ 3 000 000 FCFA. Avance : 1 000$ soit environ 500 000 FCFA."
+},
+{
+  "id": "mercedes-glc-2018",
+  "name": "Mercedes GLC Occasion Dubai",
+  "brand": "Mercedes",
+  "price": 7500,
+  "priceFcfa": "4500000 FCFA",
+  "depositUsd": "1000 USD",
+  "depositFcfa": "600000 FCFA",
+  "images": [
+    "/images/cars/photo_2026-06-22_03-44-01.jpg",
+    "/images/cars/photo_2026-06-22_05-06-04.jpg"
+  ],
+  "category": "SUV",
+  "fuel": "Essence",
+  "transmission": "Automatique",
+  "mileage": "78 000 km",
+  "year": 2018,
+  "location": "Dubai Auto Market",
+  "features": [
+    "Full option",
+    "Climatisation",
+    "Bluetooth",
+    "Caméra de recul",
+    "Confort premium",
+    "Véhicule inspecté avant expédition"
+  ],
+  "available": true,
+  "shipping": "Livraison partout en Afrique après environ 35 jours",
+  "description": "Mercedes GLC 2018 occasion disponible à Dubai 🇦🇪. Full option. Kilométrage : 78 000 km. Boîte automatique. Prix transport et douane inclus : 4 500 000 FCFA soit environ 7 500$. Avance : 600 000 FCFA soit environ 1 000 USD."
+},
+{
+  "id": "toyota-rav4-2020",
+  "name": "Toyota RAV4 Occasion Dubai 🇦🇪",
+  "brand": "Toyota",
+  "price": 5000,
+  "priceFcfa": "3000000 FCFA",
+  "depositUsd": "833 USD",
+  "depositFcfa": "500000 FCFA",
+  "images": [
+    "/images/cars/photo_2026-06-22_03-44-55.jpg",
+    "/images/cars/photo_2026-06-22_03-23-51.jpg"
+  ],
+  "category": "SUV",
+  "fuel": "Essence",
+  "transmission": "Automatique",
+  "mileage": "56 000 km",
+  "year": 2020,
+  "location": "Dubai Auto Market",
+  "features": [
+    "Climatisation",
+    "Bluetooth",
+    "Caméra de recul",
+    "Confort SUV",
+    "Véhicule inspecté avant expédition"
+  ],
+  "available": true,
+  "shipping": "Livraison dans tous les pays d’Afrique après environ 30 jours",
+  "description": "Toyota RAV4 Occasion Dubaï 🇦🇪. Année 2020. Kilométrage : 56 000 km. Carburant : Essence ⛽. Boîte de vitesse : Automatique. Prix avec transport et douane inclus : 3 000 000 FCFA soit environ 5 000$. Avance : 500 000 FCFA soit environ 833 USD."
+},
+{
+  "id": "mercedes-s550-2015",
+  "name": "Mercedes S550 4MATIC Occasion Dubai 🇦🇪",
+  "brand": "Mercedes",
+  "price": 10000,
+  "priceFcfa": "6000000 FCFA",
+  "depositUsd": "1000 USD",
+  "depositFcfa": "600000 FCFA",
+  "images": [
+    "/images/cars/photo_2026-06-22_03-55-44.jpg",
+    "/images/cars/photo_2026-06-22_05-29-39.jpg"
+  ],
+  "category": "Berline Luxe",
+  "fuel": "Essence",
+  "transmission": "Automatique",
+  "mileage": "102 000 km",
+  "year": 2015,
+  "color": "Blanche",
+  "location": "Dubai Auto Market",
+  "features": [
+    "4MATIC",
+    "Full option",
+    "Intérieur luxe",
+    "Climatisation",
+    "Bluetooth",
+    "Caméra de recul",
+    "Confort premium"
+  ],
+  "available": true,
+  "shipping": "Livraison partout en Afrique après environ 30 jours",
+  "description": "Mercedes S550 4MATIC 2015 occasion disponible à Dubai 🇦🇪. Couleur blanche. Kilométrage : 102 000 km. Boîte automatique. Prix transport et douane inclus : 6 000 000 FCFA soit environ 10 000$. Avance : 600 000 FCFA soit environ 1 000 USD."
 },
 {
   "id": "mercedes-glc-2018",

@@ -18,11 +18,6 @@ const brands = [
 ];
 
 
-function formatFcfa(price) {
-  return new Intl.NumberFormat('fr-FR').format(price * 600) + ' FCFA';
-}
-
-
 
 export default function Catalogue() {
 
@@ -128,7 +123,6 @@ description="Choisissez votre voiture Dubai Export"
 
 
 
-
 {highlightedCar && (
 
 <section className="bg-sky-50 py-8">
@@ -201,7 +195,7 @@ gap-3
 
 <Mini 
 label="Prix"
-value={`${formatPrice(highlightedCar.price)} | ${formatFcfa(highlightedCar.price)}`}
+value={`$${highlightedCar.price}`}
 />
 
 
@@ -262,6 +256,7 @@ Ajouter au panier
 </section>
 
 )}
+
 
 
 
@@ -412,28 +407,7 @@ text-white
 ">
 
 
-<p className="font-bold">
-
-{filteredCars.length} voiture(s)
-
-</p>
-
-
-<div className="
-rounded-full
-bg-white/20
-px-4
-py-2
-w-fit
-">
-
-Dubai Export 🚗
-
 </div>
-
-
-</div>
-
 
 
 
@@ -502,6 +476,7 @@ Voir détails
 );
 
 }
+
 
 
 

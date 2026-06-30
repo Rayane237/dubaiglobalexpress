@@ -52,7 +52,7 @@ export default function CarCard({ car }) {
 
 
           <p className="font-black text-emerald-700">
-            {formatPrice(car.price)}
+            ${formatPrice(car.price)}
           </p>
 
 
@@ -65,10 +65,11 @@ export default function CarCard({ car }) {
           )}
 
 
-          {car.depositFcfa && (
+
+          {car.depositUsd && (
 
             <p className="mt-1 text-sm font-bold text-orange-600">
-              Avance : {car.depositFcfa}
+              Avance : {car.depositUsd}
             </p>
 
           )}

@@ -108,7 +108,7 @@ ${car.priceFcfa || formatFcfa(car.price)}
 
 
 Avance :
-${car.depositFcfa || '500000 FCFA'}
+$${car.deposit || '500'}
 
 
 Kilométrage :
